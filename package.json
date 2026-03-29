@@ -1,0 +1,27 @@
+{
+  "name": "notion-mcp-governed-agent-",
+  "version": "1.0.0",
+  "description": "Notion mcp challange entry",
+  "repository": {
+    "type": "git",
+    "url": "github.com/getactra/notion-mcp-governed-agent"
+  },
+  "license": "ISC",
+  "author": "Amit Saxena",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@getactra/actra": "^0.7.7",
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "oauth": "^0.10.2",
+    "pkce-challenge": "^6.0.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0"
+  }
+}
